@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import java.io.*;
 
-public class MainActivity3 extends AppCompatActivity {
+public class MainActivity4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +15,8 @@ public class MainActivity3 extends AppCompatActivity {
 
     
     //fbehdbcdhbchd
-
+    // bhdbhfbc
+    // ebfhbc
     public static void foo () throws IOException {
     	FileOutputStream fos = new FileOutputStream(new File("whatever.txt"));
     	fos.write(7);   //DOH! What if exception?
