@@ -1,13 +1,13 @@
 {
-  "rtime": 0.12408590316772461,
-  "utime": 0.058214,
-  "stime": 0.015159999999999998,
-  "cutime": 0.003328,
-  "cstime": 0.004652,
-  "minor_gb": 0.031751759350299835,
-  "promoted_gb": 0.0027321502566337585,
-  "major_gb": 0.004347309470176697,
-  "allocated_gb": 0.03336691856384277,
+  "rtime": 0.1087331771850586,
+  "utime": 0.06135700000000001,
+  "stime": 0.015979,
+  "cutime": 0.003278,
+  "cstime": 0.004399,
+  "minor_gb": 0.033389173448085785,
+  "promoted_gb": 0.0027414411306381226,
+  "major_gb": 0.004357591271400452,
+  "allocated_gb": 0.035005323588848114,
   "minor_collections": 8,
   "major_collections": 1,
   "compactions": 0,
@@ -17,6 +17,6 @@
   "attributes_table": {
     "num_bindings": 4,
     "num_buckets": 16,
-    "max_bucket_length": 2
+    "max_bucket_length": 1
   }
 }

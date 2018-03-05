@@ -24,7 +24,7 @@ cl3:
 	$(INFERANALYZE) --cluster '/Users/chris/AndroidStudioProjects/HelloWorld/infer-out/multicore/xcl3.cluster'
 	@touch $@
 
-#/Users/chris/AndroidStudioProjects/HelloWorld/infer-out/captured/MainActivity3.java.1481c446429fe2d8ed380d61a648035b
+#/Users/chris/AndroidStudioProjects/HelloWorld/infer-out/captured/MainActivity4.java.60d2170ae1dfe460da0d1ce378404b74
 cl4: 
 	$(INFERANALYZE) --cluster '/Users/chris/AndroidStudioProjects/HelloWorld/infer-out/multicore/xcl4.cluster'
 	@touch $@

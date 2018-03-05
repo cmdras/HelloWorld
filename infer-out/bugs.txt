@@ -1,22 +1,22 @@
 Found 2 issues
 
-app/src/main/java/com/example/chris/helloworld/MainActivity3.java:23: error: RESOURCE_LEAK
-   resource of type `java.io.FileOutputStream` acquired to `fos` by call to `FileOutputStream(...)` at line 20 is not released after line 23
-**Note**: potential exception at line 21
-  21.       	fos.write(7);   //DOH! What if exception?
-  22.       	fos.close();
-  23. >  }	
-  24.   
-  25.    	public static void foo2 () throws IOException {
+app/src/main/java/com/example/chris/helloworld/MainActivity4.java:28: error: RESOURCE_LEAK
+   resource of type `java.io.FileOutputStream` acquired to `fos` by call to `FileOutputStream(...)` at line 25 is not released after line 28
+**Note**: potential exception at line 26
+  26.       	fos.write(7);   //DOH! What if exception?
+  27.       	fos.close();
+  28. >  }	
+  29.   
+  30.    	public static void foo2 () throws IOException {
 
-app/src/main/java/com/example/chris/helloworld/MainActivity3.java:29: error: RESOURCE_LEAK
-   resource of type `java.io.FileOutputStream` acquired to `fos2` by call to `FileOutputStream(...)` at line 26 is not released after line 29
-**Note**: potential exception at line 27
-  27.       	fos2.write(7);   //DOH! What if exception?
-  28.       	fos2.close();
-  29. >  }
-  30.   
-  31.   }
+app/src/main/java/com/example/chris/helloworld/MainActivity4.java:35: error: RESOURCE_LEAK
+   resource of type `java.io.FileOutputStream` acquired to `fos2` by call to `FileOutputStream(...)` at line 31 is not released after line 35
+**Note**: potential exception at line 32
+  33.           fos2.write(8);
+  34.       	fos2.close();
+  35. >  }
+  36.   
+  37.   }
 
 Summary of the reports
 
